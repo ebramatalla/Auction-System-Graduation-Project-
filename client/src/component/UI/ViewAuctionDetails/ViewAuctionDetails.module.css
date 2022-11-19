@@ -1,0 +1,78 @@
+.CurrentAuctionsCard {
+	background: none !important;
+	color: white;
+	box-shadow: 0px 3px 4px #889090;
+	padding-bottom: 10px;
+	transition: all 0.5s;
+	border-radius: 15px !important;
+	transition: all 1s;
+	cursor: pointer;
+}
+.CurrentAuctionsCard:hover {
+	transform: scale(1.05);
+}
+
+.CurrentAuctionsCard img {
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+	height: 200px !important;
+}
+
+.CardItemCategory,
+.CardAuctionStatus {
+	min-width: 40%;
+	padding: 5px;
+	font-weight: bold;
+	background-color: var(--overlay-dark);
+	position: absolute;
+	top: 0;
+	left: 0;
+	border-top-left-radius: 15px !important;
+	text-align: center;
+}
+
+.CardItemCategory > span {
+	font-size: 12px !important;
+	color: var(--paragraph-color);
+	padding-top: 10px !important;
+	/* text-indent: 10px; */
+}
+
+.Timer {
+	position: relative;
+	margin-top: -25px;
+}
+.CardFooter {
+	/* background-color: #264653 !important; */
+	color: white !important;
+	border-radius: 15px;
+	position: absolute;
+	bottom: -15px;
+	padding: 2px;
+	left: 25%;
+	font-weight: bold !important;
+}
+
+.CardFooter:hover {
+	background-color: var(--overlay-dark) !important;
+	color: white !important;
+	left: 25.5%;
+	transition: all 0.5s;
+}
+
+.btnGetAuctions {
+	float: right !important;
+	background: none;
+	border: 0;
+	transition: all 0.5s;
+}
+.btnGetAuctions:hover {
+	padding-right: 10px;
+}
+
+.Timer > span {
+	background-color: rgba(0, 0, 0, 0.5);
+	margin: 0px 3px 0px 3px;
+	padding: 5px 10px 5px 10px;
+	text-align: center;
+}

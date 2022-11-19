@@ -1,0 +1,27 @@
+.AuctionHeader {
+	box-shadow: 0px 2px 9px var(--overlay-dark);
+	padding-bottom: 10px;
+	border-bottom-right-radius: 15px !important;
+	border-bottom-left-radius: 15px !important;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.btnGetAuctions > h5,
+.btnGetAuctions {
+	transition: all 0.5s;
+	/* color: var(--alert-color) !important; */
+}
+
+@media screen and (max-width: 768px) {
+	.AuctionHeader {
+		flex-direction: column !important;
+	}
+	.btnGetAuctions {
+		text-align: right !important;
+		float: right;
+		width: 100%;
+		padding-right: 15px !important;
+	}
+}

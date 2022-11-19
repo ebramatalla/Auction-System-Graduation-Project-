@@ -1,0 +1,64 @@
+.ChatHistoryContent {
+	display: flex;
+	flex-direction: row;
+	margin-top: 5px;
+	transition: all 0.5s;
+	padding: 5px;
+	cursor: pointer;
+}
+.ChatHistoryContent:first-of-type {
+	margin-top: 20px;
+}
+.ChatHistoryContent:hover {
+	background-color: #191c20;
+}
+
+.UserImage {
+	padding: 5px;
+	margin-left: 20px;
+	font-weight: bolder !important;
+}
+
+.UserName {
+	padding-top: 5px;
+	margin-bottom: 0;
+	color: white !important;
+	margin-left: 10px;
+	font-weight: bold !important;
+	display: inline-block;
+}
+
+.MessageContent {
+	margin-left: 10px;
+	font-weight: bolder !important;
+	font-size: 12px !important;
+	color: var(--paragraph-color);
+}
+
+.MessageTime {
+	float: right;
+	text-align: right;
+	padding: 5px;
+	font-size: 12px;
+	color: #487acb;
+	font-weight: bolder !important;
+}
+
+.ChatHistorySearch {
+	background-color: #000000;
+	border: 0;
+	border-bottom: 1px solid white;
+	width: 98%;
+	margin: 0% 0% 5% 2%;
+	border-radius: 0;
+	padding: 10px;
+	padding-left: 30px;
+}
+
+.activeChat {
+	background-color: #22385c;
+}
+
+.activeChat .MessageTime {
+	color: var(--paragraph-color);
+}

@@ -1,0 +1,68 @@
+version: '3.9'
+# List all app services
+services:
+  # Mongo DB Serive
+  mongodb-service:
+    image: mongo:latest
+    restart: always
+    volumes:
+      - data-volume:/data/db
+    ports:
+      - '27017:27017'
+    networks:
+      - auction-app-network
+
+  # App server service
+  auction-server:
+    depends_on:
+      - mongodb-service
+    container_name: auction-nest-service
+    image: auction-nest-image
+    build:
+      context: ./server
+      dockerfile: Dockerfile
+    command: npm run start:dev
+    # Mount our host dir to the docker container
+    # Mount api directory (./api) to (:) docker container (/usr/src/app)
+    # Reflect File changes from host to container
+    volumes:
+      - ./server/:/usr/src/app
+      - /usr/src/app/node_modules
+    ports:
+      - '8000:8000'
+    env_file:
+      - ./server/.development.env
+    environment:
+      - NODE_ENV=development
+    networks:
+      - auction-app-network
+
+  # App client service
+  auction-client:
+    build:
+      context: ./client
+      dockerfile: Dockerfile
+    image: auction-react-image
+    container_name: auction-react-service
+    command: npm start
+    volumes:
+      - ./client/:/usr/src/app
+      - /usr/src/app/node_modules
+    depends_on:
+      - auction-server
+    ports:
+      - '3000:3000'
+    networks:
+      - auction-app-network
+
+# Setup the network
+networks:
+  auction-app-network:
+    driver: bridge
+
+# Setup the volumes
+volumes:
+  data-volume:
+  node_modules:
+  web-root:
+    driver: local

@@ -1,0 +1,120 @@
+.UpGoingAuctions {
+	height: fit-content;
+	color: white;
+	margin-top: 100px !important;
+	padding-bottom: 4% !important;
+}
+
+.UpGoingAuctions > h2 {
+	box-shadow: 0px 2px 9px var(--overlay-dark);
+	padding-bottom: 10px;
+	border-bottom-right-radius: 15px !important;
+	border-bottom-left-radius: 15px !important;
+}
+
+.UpGoingAuctionsContent {
+	width: 85%;
+	margin-left: 8%;
+}
+
+.itemImage{position: relative!important}
+.itemImage > img {
+	width: 100%;
+	height: 350px;
+	border-bottom-left-radius: 15px;
+	border-top-left-radius: 15px;
+}
+
+.upGoingAuctionData {
+	/* width: 49%; */
+	box-shadow: 0px 4px 6px var(--overlay-dark);
+	border-bottom-right-radius: 15px !important;
+	border-top-right-radius: 15px !important;
+}
+
+.upGoingAuctionData > h2 {
+	box-shadow: 0px 5px 9px var(--overlay-dark);
+	padding: 5px;
+	padding-right: 0;
+	border-top-right-radius: 15px !important;
+}
+.upGoingAuctionData p,
+.SellerName {
+	font-size: 12px;
+	padding-bottom: 0 !important;
+	color: var(--main-color);
+}
+
+.ItemDescription {
+	font-size: 12px !important;
+	color: var(--paragraph-color) !important;
+	padding-bottom: 10px;
+}
+
+.UpgoingAuctionBadge {
+	position: absolute;
+	top: 0px;
+	width: 100%!important;
+	/* left: -25px; */
+	padding: 10px !important;
+	background-color: var(--main-color);
+	opacity: 0.9;
+	border-top-left-radius: 10px;
+	/* transform: rotate(-30deg); */
+}
+
+.btnViewDetails {
+	background-color: var(--main-color);
+	text-align: center;
+	font-weight: bold;
+	width: fit-content;
+	float: right;
+	margin: 15px;
+}
+
+/* end AuctionDetails*/
+
+/* *************************************** */
+
+@media screen and (max-width: 768px) {
+	.ImageCarousel {
+		height: fit-content;
+	}
+
+	.itemImage {
+		padding-bottom: 20px;
+		height: 80%;
+	}
+	.itemImage > img {
+		height: 200px;
+	}
+
+	.UpgoingAuctionBadge {
+		top: 16px;
+		left: -22px;
+		width: 50%;
+	}
+	.upGoingAuctionData {
+		width: 99%;
+		margin-bottom: 10px;
+	}
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+	.UpgoingAuctionBadge {
+		width: 30%;
+	}
+
+	.itemImage {
+		padding-bottom: 30px;
+	}
+	/* .itemImage > img{height: 200px;} */
+
+	.upGoingAuctionData {
+		margin-bottom: 25px;
+	}
+
+	.NoUpGoingAuctions > div {
+		width: 95% !important;
+	}
+}

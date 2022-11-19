@@ -1,0 +1,287 @@
+.container_profile {
+	background-color: #191c20;
+	min-height: 100vh !important;
+	/* margin : 0 5% !important; */
+}
+
+.header {
+	max-height: 20% !important;
+}
+.header img {
+	position: relative;
+	height: 250px;
+	width: 80%;
+	margin: 3% 10% 0;
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-ms-border-radius: 10px;
+	-o-border-radius: 10px;
+}
+
+.profile img {
+	position: absolute;
+	width: 120px !important;
+	height: 120px !important;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-ms-border-radius: 50%;
+	-o-border-radius: 50%;
+	top: 210px;
+	left: 10px;
+	transform: translate(10%, 0);
+	-webkit-transform: translate(10%, 0);
+	-moz-transform: translate(10%, 0);
+	-ms-transform: translate(10%, 0);
+	-o-transform: translate(10%, 0);
+}
+.profile h5,
+.profile p {
+	position: absolute;
+	top: 95%;
+	left: 25%;
+	font-weight: bold !important;
+}
+.profile p {
+	top: 103% !important;
+	color: rgb(224, 216, 216);
+	font-weight: 300 !important;
+}
+.profile .bar {
+	position: absolute;
+
+	font-size: 14px !important;
+	left: 65.5% !important;
+	margin-top: 1.5%;
+}
+.numOfReviewers {
+	font-size: 14px !important;
+	top: 105%;
+	left: 65.5%;
+	font-weight: bold !important;
+}
+.profile .profile_bar {
+	position: absolute;
+	left: 73%;
+	width: 15%;
+}
+.profile_cards {
+	width: 80%;
+	margin: 0 10%;
+	/* background-color: #262525 !important; */
+}
+
+.profile_card {
+	background-color: #191c20;
+	padding: 2% 3%;
+	border-radius: 15px;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	-ms-border-radius: 15px;
+	-o-border-radius: 15px;
+}
+.cardP {
+	background-color: #424242 !important;
+	margin-left: 34%;
+}
+/* 424242 */
+.profile_table {
+	width: 80%;
+	background-color: #191c20;
+	border-radius: 15px;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	-ms-border-radius: 15px;
+	-o-border-radius: 15px;
+	margin: 0 10%;
+}
+.profileHr1 {
+	margin: 10% 10% 0;
+}
+.profileHr2 {
+	margin: 0 10%;
+}
+.btn_chat {
+	left: 73%;
+	top: 130%;
+	width: 20%;
+	border-radius: 25px;
+	-webkit-border-radius: 25px;
+	-moz-border-radius: 25px;
+	-ms-border-radius: 25px;
+	-o-border-radius: 25px;
+}
+.btn_compliment {
+	left: 73%;
+	top: 115%;
+	width: 20%;
+	border-radius: 25px;
+	-webkit-border-radius: 25px;
+	-moz-border-radius: 25px;
+	-ms-border-radius: 25px;
+	-o-border-radius: 25px;
+	background-color: var(--nav-color);
+}
+
+.btn-remove {
+	font-size: 15px !important;
+}
+/* related to complaints page */
+.formLabel {
+	color: white !important;
+}
+.formInput {
+	background-color: #2e2f32 !important;
+	border: none !important;
+	outline: none !important;
+	color: white !important;
+	margin: 0 !important;
+}
+
+@media screen and (max-width: 576px) {
+
+	.header img {
+		width: 100% !important;
+		margin: 0;
+	}
+	.profile {
+		margin-bottom: 50px !important;
+		position: relative;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+	.profile > div {
+		width: 100% !important;
+		margin-left: 20px;
+		margin-bottom: 20px;
+	}
+	.profile .profile_bar {
+		left: 76% !important;
+	}
+	.profile img {
+		width: 80px !important;
+		height: 80px !important;
+		left: 0;
+		top: -20px;
+	}
+	.profile p,
+	.profile h5,
+	.profile .profile_bar,
+	.profile .bar {
+		position: initial !important;
+		margin-left: 80px !important;
+	}
+
+	.profile .profile_bar,
+	.profile .bar {
+		margin-left: 0px !important;
+		margin-top: 10px;
+	}
+	.numOfReviewers {
+		top: 100%;
+		left: 20px;
+		display: block !important;
+		margin-bottom: 10px !important;
+	}
+	.profile .profile_bar {
+		width: 80%;
+		/* margin-left: -12px !important; */
+		margin-top: 12px;
+	}
+	.profile_card > div {
+		width: 100% !important;
+	}
+}
+
+/* @media screen and (min-width: 567px) and (max-width: 768px) {
+	.profile {
+		margin-bottom: 50px !important;
+		position: relative;
+
+	}
+	.profile img {
+		width: 90px !important;
+		height: 90px !important;
+		top: -80px!important;
+		left: 4px;
+	}
+	.profile p,
+	.profile h5 {
+		left: 29% !important;
+	}
+	.profile .bar {
+		left: 59.5% !important;
+		margin-top: 3% !important;
+	}
+	.numOfReviewers {
+		left: 59.5% !important;
+		margin-top: 5% !important;
+	}
+
+
+} */
+
+@media screen and (min-width: 567px) and (max-width: 992px) {
+	.profile {
+		position: relative;
+		padding-bottom: 50px !important;
+	}
+	.profile img {
+		top: 0px !important;
+		left: 0px !important;
+		position: relative !important;
+		margin-top: -80px !important;
+	}
+	.chart-bar {
+		display: inline-block !important;
+		width: 50% !important;
+	}
+	.profile .bar {
+		position: relative !important;
+		left: 30% !important;
+		margin-top: 4% !important;
+	}
+	.profile .profile_bar {
+		position: relative;
+		right: 0;
+		width: 30%;
+		left: 60%;
+	}
+	.profile p,
+	.profile h5 {
+		left: 30% !important;
+		top: 20%;
+	}
+	.profile p {
+		top: 50% !important;
+	}
+	.numOfReviewers {
+		left: 66% !important;
+		margin-top: -7% !important;
+	}
+}
+
+@media screen and (min-width: 1500px) {
+	.profile h5,
+	.profile p {
+		left: 20% !important;
+		font-size: 30px;
+	}
+	.profile .bar {
+		position: absolute;
+		font-size: 17px !important;
+		/* margin-top: 0.5%; */
+		left: 63% !important;
+	}
+	.profile p {
+		font-size: 30px !important;
+		top: 107% !important;
+	}
+	.numOfReviewers {
+		font-size: 17px !important;
+		left: 63% !important;
+		top: 109%;
+	}
+}

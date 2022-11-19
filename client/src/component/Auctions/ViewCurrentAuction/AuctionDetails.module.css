@@ -1,0 +1,48 @@
+.CreatorName,
+.CategoryName {
+	color: var(--paragraph-color);
+}
+.CreatorName:hover,
+.CategoryName:hover {
+	color: var(--main-color);
+}
+
+.ItemsDetails > p {
+	color: var(--paragraph-color) !important;
+}
+.MinimumBidValue,
+.AuctionDate {
+	color: var(--alert-color) !important;
+}
+
+/* start timer style */
+.timer {
+	display: flex;
+	justify-content: center;
+	margin-top: 2%;
+}
+
+.timer > span {
+	color: white;
+	border-radius: 5px;
+	padding: 5px;
+	text-align: center;
+	cursor: pointer;
+}
+
+.hrRight {
+	border-right: 1.7px solid var(--paragraph-color);
+	margin-top: -24px;
+	opacity: 0.25;
+}
+
+.AuctionEndedStyle {
+	color: white;
+	/* position: absolute; */
+	/* bottom: 50px; */
+	width: 100% !important;
+	/* margin-left: 3%; */
+	/* left: 15px; */
+	transition: all 0.5s;
+	box-shadow: none !important;
+}

@@ -1,0 +1,59 @@
+.Register {
+	background-color: var(--dark-color);
+}
+
+.Register > div {
+	height: 100vh !important;
+}
+
+/* start register background */
+
+.register-bg-overlay {
+	background-color: var(--overlay-blue);
+	opacity: 0.1;
+	top: 0;
+	left: 0;
+}
+
+.register-bg .background {
+	background-image: url('../../../assets/pexels-sora-shimazaki-5668473.png');
+	background-position: center;
+	background-size: cover;
+	width: 100%;
+	min-height: 100%;
+}
+/* end register background */
+
+/*register content*/
+.register-content {
+	background-color: var(--dark-color);
+}
+
+/*end register content*/
+.logo {
+	background-color: #191c24;
+	box-shadow: 2px 5px 6px #1f1f1f;
+	/* position: fixed; */
+	z-index: 1000;
+	/* margin: 0 auto; */
+	/* width: 25%; */
+
+	padding: 10px;
+}
+.logo span {
+	color: #07b2ef;
+}
+
+@media screen and (max-width: 992px) {
+	.register-content {
+		height: 100vh;
+	}
+	.register-content {
+		background-color: black;
+		opacity: 0.8;
+		position: absolute;
+		top: 0;
+		right: 0;
+		max-height: 100vh !important;
+	}
+}

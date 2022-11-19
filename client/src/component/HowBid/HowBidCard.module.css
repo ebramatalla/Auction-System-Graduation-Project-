@@ -1,0 +1,14 @@
+.steps-content {
+	width: 150px !important;
+	height: 150px !important;
+	position: relative;
+	border-radius: 50%;
+	box-shadow: 5px 5px 8px #4b4b4b;
+
+	background-color: #2f3236;
+	padding: 5px;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-ms-border-radius: 50%;
+	-o-border-radius: 50%;
+}

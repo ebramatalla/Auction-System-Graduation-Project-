@@ -1,0 +1,46 @@
+.paymentInput {
+	background-color: var(--overlay-dark) !important;
+	border: 0 !important;
+	padding: 10px !important;
+	color: white !important;
+}
+
+.paymentInput:focus,
+.paymentInput::placeholder {
+	color: white !important;
+}
+
+.paymentBtn {
+	/* width: 60%; */
+	font-weight: bold !important;
+	margin: 30px 0px -15px 0px;
+}
+.chargeWalletBtn {
+	margin-left: 20px;
+	margin-right: 20px;
+}
+.recoverMoneyBtn {
+	margin-right: 20px;
+}
+
+.chargeAmountStyle {
+	width: 30% !important;
+	background-color: var(--overlay-dark) !important;
+	border: 0 !important;
+}
+
+@media (max-width: 991px) {
+	.chargeAmountStyle {
+		width: 100% !important;
+	}
+	.paymentBtn {
+		width: 100% !important;
+		/* margin: 10px 5px!important; */
+		margin-left: 0px !important;
+		margin-right: 0px !important;
+		margin-top: 20 px !important;
+	}
+	.recoverMoneyBtn {
+		margin-top: 30px !important;
+	}
+}

@@ -1,0 +1,25 @@
+.btn-steps {
+	width: 85%;
+	position: absolute;
+	bottom: -18px;
+	color: white;
+}
+.btn-steps > button {
+	width: 75%;
+	font-weight: 600;
+}
+.btnStep {
+	width: 45%!important;
+}
+.btnSubmit{
+	background-color: #2666cf!important;
+
+}
+.btn-steps > button:first-child {
+	background-color: var(--semiDark-color);
+	border-color: var(--semiDark-color);
+}
+.btn-steps > button:last-child {
+	background-color: var(--btnActive-color);
+	border-color: var(--btnActive-color);
+}

@@ -1,0 +1,37 @@
+span a {
+	text-decoration: none !important;
+	color: #0dcaf0 !important;
+}
+
+.btn-warn,
+.btn-block,
+.btn-joinAuction {
+	margin-left: 5px;
+	font-size: 10px !important;
+	font-weight: bold;
+}
+
+.btn-warn {
+	background-color: var(--semiDark-color);
+}
+
+.RemoveBadge {
+	font-size: 10px;
+	font-weight: bold;
+}
+
+.btn-joinAuction {
+	font-size: 12px;
+}
+
+.noImage {
+	color:#07b2ef;
+	background-color: white;
+	display: inline-flex!important;
+	justify-content: center!important;
+	align-items: center!important;
+}
+
+.noImage > svg{
+	font-size: 24px!important;
+}

@@ -1,0 +1,47 @@
+.profilePageContent {
+	/* min-height: 50vh ; */
+	width: 100%;
+	display: flex;
+	/* margin-left: 100px; */
+	justify-content: center;
+	align-items: center;
+
+	/* background-color: ; */
+}
+
+.profilePageContent > img {
+	width: 200px !important;
+	height: 200px !important;
+	border-radius: 50%;
+}
+
+.WarningModal {
+	position: absolute;
+	top: 15%;
+	right: 0;
+	display: flex;
+	width: fit-content;
+	flex-direction: column;
+	min-height: 14vh;
+	background-color: var(--dark-color);
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	/* border-radius: 20px; */
+	box-shadow: 2px 3px 10px var(--nav-color);
+
+	justify-content: center;
+	align-items: center;
+}
+
+.warningIcon{
+	font-size: 50px;
+	padding: 20px;
+}
+
+.WarningModal p,
+.BlockModal p {
+	background-color: var(--nav-color);
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	margin-top: 15px;
+}

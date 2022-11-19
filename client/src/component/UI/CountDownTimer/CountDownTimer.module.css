@@ -1,0 +1,9 @@
+.Timer > span {
+	background-color: rgba(0, 0, 0, 0.5);
+	margin: 0px 3px 0px 3px;
+	padding: 5px 10px 5px 10px;
+	text-align: center;
+}
+.Timer > span:first-of-type {
+	margin-left: 0;
+}

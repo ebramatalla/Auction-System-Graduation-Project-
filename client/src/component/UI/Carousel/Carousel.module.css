@@ -1,0 +1,57 @@
+.Carousel {
+	width: 100%;
+	height: fit-content;
+	color: white;
+}
+
+.Carousel > a {
+	display: none !important;
+}
+.next {
+	display: none !important;
+}
+.prev {
+	display: none !important;
+}
+
+.Carousel > div > div > img {
+	width: 100% !important;
+	height: 350px;
+}
+
+.Carousel > div > div {
+	padding-bottom: 4rem !important;
+}
+
+/* change carausel indecators style */
+.Carousel > div {
+	margin-bottom: 0rem !important;
+	padding-bottom: 30px;
+}
+
+.Carousel button {
+	border-radius: 50% !important;
+	width: 15px !important;
+	height: 15px !important;
+}
+
+/* *************************************** */
+
+@media screen and (max-width: 768px) {
+	.Carousel {
+		width: 100%;
+		margin: 0 auto;
+	}
+	.Carousel p {
+		font-size: 12px;
+	}
+	.Carousel > div > div > img {
+		height: 200px;
+	}
+}
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+	.carousel-inner {
+		height: 40vh !important;
+	}
+}

@@ -1,0 +1,29 @@
+.WarnReasons,
+.BlockReasons {
+	background-color: var(--nav-color);
+	color: white;
+	width: 90%;
+	margin-left: 5%;
+	border: 0 !important;
+	border-color: var(--nav-color);
+	padding: 8px;
+}
+
+.WarnReasons:focus,
+.WarnReasons::selection {
+	box-shadow: none !important;
+	border: 0 !important;
+}
+
+.JoinedAuctionModal .modal-dialog {
+	margin-left: 10% !important;
+}
+.JoinedAuctionModal .modal-content {
+	min-width: 80vw !important;
+	margin-left: 0% !important;
+}
+
+.JoinedAuctionModal .btn-close-modal {
+	margin-top: -90px;
+	margin-right: -5%;
+}

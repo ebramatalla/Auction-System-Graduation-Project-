@@ -1,0 +1,61 @@
+.info h4 {
+	font-size: 14px !important;
+}
+
+.info button {
+	width: 100%;
+	border-radius: 25px !important;
+	-webkit-border-radius: 25px !important;
+	-moz-border-radius: 25px !important;
+	-ms-border-radius: 25px !important;
+	-o-border-radius: 25px !important;
+}
+.details {
+	padding-bottom: 5% !important;
+}
+.cardD {
+	background-color: #424242 !important;
+	width: 40% !important;
+	height: 160px !important;
+	margin-right: 3% !important;
+	margin-left: 0 !important;
+	position: relative;
+}
+.profile_card {
+	background-color: #191c20 !important;
+	padding: 2% 3%;
+	border-radius: 15px;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	-ms-border-radius: 15px;
+	-o-border-radius: 15px;
+}
+
+.profile_btn span {
+	position: absolute;
+	color: #3374d6 !important;
+	top: 75% !important;
+	right: 20px !important;
+	font-size: 20px;
+}
+
+.details_list:before,
+.details_list:after {
+	background-color: white;
+	content: '';
+	display: inline-block;
+	height: 1px;
+	position: relative;
+	vertical-align: middle;
+	width: 28%;
+}
+
+.details_list:before {
+	right: 0.5em;
+	margin-left: -50%;
+}
+
+.details_list:after {
+	left: 0.5em;
+	margin-right: -50%;
+}

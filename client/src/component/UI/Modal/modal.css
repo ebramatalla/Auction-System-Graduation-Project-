@@ -1,0 +1,87 @@
+.modal {
+	background-color: rgba(0, 0, 0, 0.6) !important;
+}
+.modal-content {
+	background-color: #111111 !important;
+	color: white;
+	width: 70% !important;
+	margin-left: 15% !important;
+	box-shadow: 1px 2px 9px #2c2a2a !important;
+	min-height: 200px;
+	z-index: 20000 !important;
+	padding: 10px;
+}
+
+.modal-header,
+.hideBorder {
+	border-bottom: 0 !important;
+}
+.modal-header .modal-title {
+	width: 100% !important;
+	text-align: center !important;
+	font-weight: bold !important;
+	font-size: 20px !important;
+	padding-top: 15px;
+}
+.modal-header .hasBorder {
+	border-bottom: 1px solid white !important;
+	width: 100%;
+	padding-bottom: 15px;
+	text-align: center;
+}
+
+.modal-header > .btn-close {
+	display: none;
+}
+.btn-close-modal {
+	position: relative;
+	margin-top: -80px;
+	margin-right: -8%;
+	border-radius: 100px;
+	font-weight: bold;
+	color: white;
+}
+
+.btn-close {
+	color: var(--alert-color) !important;
+}
+
+.modal-footer {
+	justify-content: center !important;
+	padding: 5px 0px 10px 0px !important;
+	border-top: 0 !important;
+}
+
+.modal-footer > button {
+	width: 40%;
+	margin-top: 10px;
+}
+
+.BalanceCard {
+	width: 40%;
+}
+.BalanceCard h5 {
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+}
+/* Style of filter */
+.tnECc {
+	background: none !important;
+}
+/* end style of filter */
+@media screen and (max-width: 991px) {
+	.modal-content {
+		width: 100% !important;
+		margin-left: 0 !important;
+	}
+	.modal-header .modal-title,
+	.modal-body h4 {
+		font-size: 18px !important;
+	}
+	.BalanceCard {
+		width: 80%;
+	}
+	.modal-footer > button {
+		font-size: 10px !important;
+	}
+}

@@ -1,0 +1,13 @@
+.SelectStyl select,
+.productImage,
+.ProdulctDetailed {
+	background-color: var(--semiDark-color) !important;
+	color: white !important;
+	border: 0;
+	margin-bottom: 15px;
+}
+.bntstyl {
+	margin-left: 66%;
+	width: 30%;
+	margin-top: 15px;
+}

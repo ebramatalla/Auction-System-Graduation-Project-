@@ -1,0 +1,71 @@
+.ContactDetails {
+	background-color: var(--dark-color);
+	height: 80%;
+	width: 100%;
+	position: relative;
+	right: -50%;
+	margin-top: 20%;
+	box-shadow: 2px 2px 10px var(--nav-color);
+	border-radius: 10px;
+	/* padding: 0% 0% !important; */
+}
+
+.ContactDetails > h4 {
+	font-weight: bold;
+	padding: 15px;
+	margin-bottom: 25px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+
+	box-shadow: 0px 2px 10px var(--nav-color);
+}
+.ContactDetails p {
+	display: inline-block !important;
+	color: var(--paragraph-color);
+}
+
+.phoneNumContent > svg {
+	color: var(--main-color);
+}
+.ContactIcon {
+	padding: 0px 20px 0px 10px;
+	font-size: 12px;
+}
+
+.ChatNow , .btnChatNow {
+	display: block;
+	text-decoration: none;
+	background-color: var(--alert-color);
+	color: white;
+	margin: 0 10% !important;
+	padding: 5px;
+	position: relative;
+	text-align: center;
+	border-radius: 5px;
+	transition: all 0.5s;
+}
+.btnChatNow{
+	border: 0;
+	width: 75%;
+}
+.ChatNow:hover {
+	color: white;
+	background-color: var(--overlay-dark);
+}
+
+@media (max-width: 768px) {
+	.ContactDetails {
+		height: auto;
+		right: 0;
+		margin-bottom: 25px;
+		padding-bottom: 50px !important;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+	.ContactDetails {
+		height: 80%;
+		margin-right: -35%;
+		margin-top: 25%;
+	}
+}

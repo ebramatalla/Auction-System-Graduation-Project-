@@ -1,0 +1,60 @@
+.form-container {
+	margin-top: 50px;
+}
+
+.checkbox {
+	margin-left: 5% !important;
+	display: inline-block;
+}
+.text {
+	display: flex;
+	justify-content: space-between;
+	margin: 0 -1% 0 -4%;
+	margin-right: 5px;
+	font-weight: 400;
+	cursor: pointer;
+}
+.text label,
+p {
+	font-size: 13px;
+	font-weight: bold;
+	margin-top: 3px !important;
+	padding: 0px !important;
+}
+.text p {
+	font-size: 13px !important;
+}
+form button {
+	width: 100%;
+	margin-top: 5%;
+	font-size: 20px !important;
+	font-weight: bold !important;
+}
+.accounts {
+	display: flex;
+	justify-content: space-around;
+	margin-top: 5%;
+	margin-left: 5%;
+	width: 90%;
+}
+.accounts img {
+	width: 30px;
+	height: 30px;
+}
+
+.alert {
+	color: var(--alert-color) !important;
+	font-weight: bolder !important;
+}
+
+.codeContainer{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: row;
+}
+@media screen and (max-width: 992px) {
+	.input {
+		width: 100% !important;
+	}
+}

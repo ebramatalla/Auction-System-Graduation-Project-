@@ -1,0 +1,11 @@
+.container {
+	width: 90%;
+	box-shadow: 2px 2px 10px var(--nav-color);
+	border-radius: 10px;
+	padding: 5% 5% !important;
+	margin: 5% 0 0 5%;
+}
+.btnSave {
+	margin-left: 70%;
+	width: 30%;
+}

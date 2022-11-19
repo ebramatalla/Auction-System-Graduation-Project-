@@ -1,0 +1,86 @@
+.headerNav {
+	width: 75%;
+	left: 25% !important;
+	transition: all 1s;
+}
+.barBtn {
+	color: white;
+	border: none;
+	background-color: black;
+}
+/* .searchInput {
+	width: 350px;
+}
+.search::placeholder {
+	color: #BABBBD;
+	font-size: 15px;
+}
+.search {
+	margin-left: 3%;
+	background-color: #191c20 !important;
+	border: none !important;
+	outline: none !important;
+	width: 100%;
+	float: right;
+} */
+
+.MessgaeIcon,
+.NotificationIcon {
+	margin-left: 15px;
+	margin-right: 15px;
+	font-size: 20px;
+}
+.NotificationIcon {
+	position: relative;
+}
+.NotificationBadge {
+	width: 15px;
+	height: 15px;
+	text-align: center;
+	margin-left: -15px;
+	margin-top: 2px;
+}
+.NotificationNum {
+	font-size: 10px;
+	font-weight: 600;
+	position: absolute;
+	right: 5px;
+	/* margin-top: -20px; */
+}
+.bar {
+	border-left: 1px solid #191c20;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+.adminImg {
+	margin-left: 15px;
+	margin-right: 5px;
+
+	width: 40px;
+	height: 40px;
+}
+.adminIcon {
+	width: 30px;
+	height: 30px;
+	color: #07b2ef;
+	margin-left: 10px;
+}
+.logout {
+	background-color: black !important;
+	font-size: 20px;
+	text-decoration: none;
+	color: white;
+
+	font-weight: 600;
+}
+.logout:hover {
+	color: #07b2ef;
+	/* line-height: 2; */
+}
+
+@media screen and (max-width: 991px) {
+	.headerNav {
+		width: 100% !important;
+		left: 0 !important;
+	}
+}

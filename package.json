@@ -1,0 +1,29 @@
+{
+	"name": "online-auction-system",
+	"version": "1.0.0",
+	"description": "An online auction system used to let people exchange products.",
+	"main": "index.js",
+	"scripts": {
+		"server-install": "cd server && npm install",
+		"client-install": "cd client && npm install",
+		"setup": "npm install && npm run client-install && npm run server-install",
+		"upgrade": "npm run server-install && npm run client-install",
+		"start:server": "cd server && npm run start:dev",
+		"start:client": "cd client && npm run start",
+		"start:dev": "concurrently \"npm run start:server\" \"npm run start:client\""
+	},
+	"keywords": [
+		"Nestjs",
+		"React"
+	],
+	"author": "Hossam Mohamed",
+	"license": "ISC",
+	"dependencies": {
+		"concurrently": "^7.0.0",
+		"date-fns": "^2.28.0",
+		"moment": "^2.29.3",
+		"react-hook-form": "^7.31.3",
+		"run": "^1.4.0",
+		"setup": "^0.0.3"
+	}
+}

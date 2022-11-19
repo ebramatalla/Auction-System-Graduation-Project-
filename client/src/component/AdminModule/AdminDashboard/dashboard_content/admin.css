@@ -1,0 +1,80 @@
+.container_ {
+	width: 90%;
+	margin: 0 5% !important;
+	/* background-color: aliceblue; */
+}
+.card_container,
+.winners,
+.top_auctions {
+	background-color: #191c20;
+	border-radius: 15px;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	-ms-border-radius: 15px;
+	-o-border-radius: 15px;
+	padding: 2% 3%;
+	margin-top: 4% !important;
+}
+
+.card_ {
+	width: 31.3% !important;
+	font-size: 20px;
+	box-shadow: 1px 1px 5px var(--nav-color);
+	border-radius: 10px;
+	padding: 3% 0 !important;
+	background-color: #262525;
+	color: white;
+	margin-right: 2% !important;
+	transition: 0.2s;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-ms-border-radius: 10px;
+	-o-border-radius: 10px;
+}
+
+.card_container {
+	font-weight: bold !important;
+}
+.card_:hover {
+	transform: scale(1.08);
+	-webkit-transform: scale(1.08);
+	-moz-transform: scale(1.08);
+	-ms-transform: scale(1.08);
+	-o-transform: scale(1.08);
+}
+
+.icon {
+	margin-left: 70% !important;
+}
+
+.top img {
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+}
+.auction_container {
+	box-shadow: 2px 2px 10px var(--nav-color);
+	border-radius: 2%;
+	padding: 3% 3% !important;
+	background-color: #262525;
+	-webkit-border-radius: 2%;
+	-moz-border-radius: 2%;
+	-ms-border-radius: 2%;
+	-o-border-radius: 2%;
+	margin-bottom: 3% !important;
+}
+.num {
+	width: 40px;
+	height: 40px;
+	/* background-color: #721717; */
+	border-radius: 50%;
+	text-align: center;
+	/* margin-right:2%; */
+	margin: 0 auto;
+}
+.bidders {
+	margin-left: 40px !important;
+	color: #da452a;
+	font-weight: bold;
+	font-size: 16px !important;
+}

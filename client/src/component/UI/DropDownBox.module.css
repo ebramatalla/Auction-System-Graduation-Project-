@@ -1,0 +1,48 @@
+.DropDownBox {
+	height: fit-content !important;
+	width: fit-content !important;
+	background-color: var(--dark-color);
+	color: white;
+	position: absolute;
+	top: 43.99px;
+	text-align: center;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	z-index: 1000;
+}
+
+.DropDownBox ul {
+	list-style: none;
+}
+
+.DropDownBox li {
+	cursor: pointer;
+	padding: 10px 5px;
+}
+
+.DropDownBox li:hover {
+	background-color: var(--overlay-dark) !important;
+	transition: all 0.5s;
+}
+.DropDownBox li:last-of-type:hover {
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
+
+/* ********************************************* */
+
+/* start media query */
+
+@media (max-width: 768px) {
+	.DropDownBox {
+		width: 100% !important;
+		min-height: 100% !important;
+		top: 0px;
+		text-align: left;
+		left: 0;
+		padding-top: 10px;
+		background-color: rgba(0, 0, 0, 1);
+	}
+}
+
+/* end media query */

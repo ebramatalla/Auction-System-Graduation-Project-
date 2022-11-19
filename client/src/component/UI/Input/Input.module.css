@@ -1,0 +1,29 @@
+.input {
+	width: 100%;
+	padding: 5px !important;
+	background-color: var(--semiDark-color) !important;
+	border-color: var(--semiDark-color) !important;
+	color: white !important;
+
+	margin-bottom: 15px;
+}
+.input::placeholder {
+	color: white !important;
+	opacity: 1;
+	font-size: 14px !important;
+}
+
+.alarm-input {
+	background-color: var(--alert-color) !important;
+	border-color: var(--alert-color) !important;
+	color: white !important;
+	margin-bottom: 0 !important;
+}
+
+.alarm {
+	color: var(--alert-color) !important;
+	font-weight: 600;
+	text-align: left;
+	font-size: 10px;
+	margin-top: 2px;
+}

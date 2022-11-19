@@ -1,0 +1,30 @@
+.register-steps-content {
+	width: 90% !important;
+	position: relative;
+	margin: auto;
+	border-radius: 25px;
+	box-shadow: 0px 3px 4px #889090;
+	padding-bottom: 25px !important;
+	min-height: calc(90vh - 30vh);
+}
+
+.loginCard {
+	padding-top: 25px !important;
+}
+.user-icon {
+	position: absolute;
+	top: -25px;
+	left: 45%;
+}
+
+.circle-icon {
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	background-color: var(--btnActive-color);
+	border-radius: 100px;
+	text-align: center;
+	color: white;
+	margin-bottom: 5px;
+	padding-top: 10px;
+}

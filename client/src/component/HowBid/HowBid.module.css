@@ -1,0 +1,98 @@
+.HowBid {
+	color: white;
+	/* border-radius: 15px; */
+	background-color: #2e2f32;
+	padding: 4% 0 6% 0;
+	cursor: pointer;
+	margin: 4% 0 !important;
+}
+
+.header3 {
+	font-size: 30px;
+	/* padding-top: 5vh !important; */
+	color: var(--main-color);
+	text-align: center;
+}
+.paragraph {
+	text-align: center;
+	font-size: 20px !important;
+	color: var(--paragraph-color);
+}
+
+.Step {
+	color: white;
+	text-align: center;
+	font-size: 16px !important;
+	padding-left: 10px;
+	padding-top: 20px;
+	font-weight: bold;
+	cursor: pointer;
+}
+.Steps {
+	width: 80% !important;
+	margin-left: 10% !important;
+	padding-top: 2% !important;
+}
+.card-content {
+	margin: 20px auto;
+}
+
+.paragraphS {
+	text-align: center;
+	margin-top: 1px !important;
+	padding-top: 15px;
+	font-size: 13px !important;
+	font-weight: bold !important;
+	color: var(--paragraph-color);
+}
+
+.paragraphChangeColor {
+	color: #2f3236 !important;
+}
+
+.changeCardColor {
+	background-color: var(--main-color) !important;
+	color: #191c20 !important;
+}
+
+.btnCardDetails {
+	position: relative;
+	width: 100%;
+	margin-top: 20px;
+	transition: all 2s;
+	display: none;
+}
+.btnCardDetails::before {
+	content: '';
+	position: absolute;
+	left: 40%;
+	top: -40px;
+	width: 20px;
+
+	border-width: 20px;
+	border-color: transparent transparent white transparent;
+	border-style: solid;
+}
+
+.CardDetails {
+	/* display: block;	 */
+	position: relative;
+	padding-top: 40px;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.Steps > div > div:hover > .CardDetails,
+.Steps > div > div:hover > .CardDetails > .btnCardDetails {
+	display: block !important;
+}
+
+/* media query for small screens */
+@media (max-width: 767.98px) {
+	.header3 {
+		font-size: 40px !important;
+	}
+	.pragragh {
+		font-size: 20px !important;
+	}
+}

@@ -1,0 +1,64 @@
+.ServiceCard {
+	width: 90vw;
+	margin-top: -10vh;
+	margin-bottom: 15vh;
+	margin-left: 5vw;
+	margin-right: 5vw;
+}
+
+._card {
+	/* background-color: var(--overlay-dark); */
+	background-color: var(--dark-color);
+	border-radius: 0;
+	border-bottom: 2px solid var(--main-color);
+	color: white;
+	box-shadow: 2px 6px 6px var(--overlay-dark);
+	min-height: 35vh;
+	padding-top: 20px;
+	transition: all 1s;
+	cursor: pointer;
+}
+
+._card:hover {
+	transform: scale(1.1);
+	border-bottom: 2px solid white;
+}
+
+._cardIcon {
+	margin-top: -50px;
+	left: 45%;
+	position: absolute;
+	background-color: var(--main-color);
+
+	padding: 5px 10px 5px 10px;
+	border-radius: 100px;
+	/* padding: -50px auto; */
+}
+
+._cardText {
+	color: var(--paragraph-color);
+	word-spacing: 5px;
+}
+
+/* start media query for medium screens && small screens */
+
+@media (max-width: 991px) {
+	.ServiceCard {
+		margin-top: 10vh;
+		margin-bottom: 20vh;
+	}
+	._card {
+		min-height: 30vh;
+		margin-bottom: 8vh !important;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	._card {
+		width: 70%;
+		min-height: 20vh;
+		margin: auto;
+	}
+}
+
+/* end media query for medium screens && small screens */

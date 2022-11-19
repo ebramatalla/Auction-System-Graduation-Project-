@@ -1,0 +1,106 @@
+.BiddingModal {
+	background-color: rgba(0, 0, 0, 0.4);
+}
+
+.BiddingModal > div > div {
+	background-color: #111111;
+	color: white;
+	width: 50%;
+	box-shadow: 1px 2px 9px #2c2a2a;
+}
+
+.BiddingModalHeader {
+	border-bottom: 0;
+	text-align: center;
+	display: inline-block;
+	padding: 20px 15px 0px;
+}
+.BiddingModalHeader > button {
+	display: none;
+}
+
+.BiddingModalHeader > div > p {
+	color: var(--paragraph-color) !important;
+}
+.BiddingModalBody > p {
+	color: #e9d8a6;
+}
+.bidValue {
+	color: var(--alert-color);
+}
+
+.ModalBodyForm {
+	padding-bottom: 30px;
+	border-bottom: 0.2px solid var(--paragraph-color) !important;
+}
+.input-group-text {
+	background-color: var(--alert-color);
+	border-color: var(--alert-color);
+	color: white;
+}
+.Alarm {
+	color: var(--alert-color);
+}
+
+.btnLogin {
+	background-color: var(--paragraph-color) !important;
+	color: black;
+}
+.btnCloseModal {
+	background-color: var(--alert-color) !important;
+	color: white;
+}
+
+.btnCloseModal:hover {
+	background-color: var(--paragraph-color) !important;
+	color: black;
+}
+
+.btnPlaceMyBid {
+	background-color: var(--paragraph-color) !important;
+	color: black;
+}
+.reject {
+	background-color: #2e2f32 !important;
+	outline: unset;
+	border: none;
+	color: white !important;
+}
+.reject::placeholder {
+	color: white !important;
+}
+.HideBorder {
+	border-bottom: 0;
+	border-top: 0;
+}
+
+/* extend time */
+.ExtendAuctionContainer {
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+}
+.ExtendAuctionContainer p {
+	color: white;
+	text-align: center;
+}
+.Extend {
+	width: 100% !important;
+	background-color: rgba(0, 0, 0, 0.5);
+	margin: 0px 3px 0px 3px;
+	padding: 5px 10px 5px 10px;
+	text-align: center;
+	border: 0;
+	color: white;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+	display: none;
+}
+
+@media (max-width: 992px) {
+	.BiddingModal > div > div {
+		width: 90%;
+		margin: 0 auto;
+	}
+}

@@ -1,0 +1,23 @@
+body {
+	margin: 0;
+	/* font-family:'Poppins', 'sans-serif'; */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	background-color: black;
+	display: flex;
+}
+
+code {
+	/* font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace; */
+	/* font-family: 'Source Sans Pro', sans-serif; */
+	font-family: 'Nunito', sans-serif;
+}
+
+* {
+	box-sizing: border-box;
+}
+/* html,body{
+
+	height: 100%;
+} */

@@ -1,0 +1,33 @@
+:root {
+	--dark-color: #191a19;
+	--light-color: #a2a2a2;
+	--input-color: #5e5f5e;
+	--active-color: #2666cf;
+	--alarm-color: #dd523b;
+}
+
+html {
+	--scrollbarBG: var(--dark-color, #191a19);
+	--thumbBG: var(--input-color);
+	background-color: var(--dark-color);
+}
+.scrollbar::-webkit-scrollbar,
+body::-webkit-scrollbar {
+	width: 11px;
+}
+body,
+.scrollbar {
+	scrollbar-width: thin;
+	scrollbar-color: var(--thumbBG) var(--scrollbarBG);
+}
+body::-webkit-scrollbar-track,
+.scrollbar::-webkit-scrollbar-track {
+	background: var(--scrollbarBG);
+}
+
+body::-webkit-scrollbar-thumb,
+.scrollbar::-webkit-scrollbar-thumb {
+	background-color: var(--thumbBG);
+	border-radius: 6px;
+	border: 3px solid var(--scrollbarBG);
+}

@@ -1,0 +1,43 @@
+.usersTable {
+	border-collapse: unset;
+	margin-top: 6%;
+}
+/* td {
+	padding: 2% 0 0;
+} */
+td a {
+	margin-left: 2%;
+}
+thead tr td {
+	border: none !important;
+	color: #6ab6df;
+	font-size: 20px;
+	font-weight: bold;
+}
+tr {
+	margin-bottom: 2%;
+}
+
+.editIcon {
+	background-color: #191c20 !important;
+	border: none !important;
+}
+.details {
+	text-decoration: underline;
+	color: #07b2ef;
+}
+.details:hover {
+	color: #07b2ef;
+}
+/* .detailsIcon{
+	background-color: #191c20 !important;
+} */
+.title {
+	color: #07b2ef;
+	margin-bottom: 2%;
+}
+@media screen and (max-width: 575.98px) {
+	.usersTable {
+		font-size: 10px;
+	}
+}

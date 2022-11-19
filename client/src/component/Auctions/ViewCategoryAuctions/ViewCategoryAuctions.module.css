@@ -1,0 +1,33 @@
+.ViewCategoryAuctions {
+	width: 90%;
+	margin: auto;
+	margin-top: 15vh;
+}
+
+.btnGetAuctions {
+	float: right !important;
+	background: none;
+	border: 0;
+	transition: all 0.5s;
+	margin-bottom: 25px;
+}
+.btnGetAuctions:hover {
+	padding-right: 10px;
+}
+
+.btnBackHome {
+	background-color: var(--dark-color);
+	color: white;
+	border-radius: 5px;
+	padding: 10px;
+}
+
+.btnBackHome:hover {
+	color: white;
+}
+
+@media (max-width: 991px) {
+	.ViewCategoryAuctions {
+		margin-top: 10vh;
+	}
+}

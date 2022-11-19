@@ -1,0 +1,78 @@
+/* start paragraph  && headings styles */
+.Steps h3 {
+	color: white !important;
+	padding: 25px 0 8px 0px;
+	font-weight: 600;
+	height: fit-content!important;
+}
+
+.Steps p {
+	text-align: left;
+	font-weight: 600;
+	font-size: 14px;
+}
+
+.stepParagraph {
+	color: #a2a2a2;
+	font-size: 15px;
+	padding-bottom: 15px;
+}
+
+.contactDetails {
+	font-size: 12px;
+	margin-bottom: 0px;
+	padding: 5px;
+}
+
+.notification {
+	color: #a2a2a2;
+}
+
+.alert {
+	color: var(--alert-color) !important;
+	font-weight: bolder !important;
+}
+.alarm-input {
+	background-color: var(--alert-color) !important;
+	border-color: var(--alert-color) !important;
+	color: white !important;
+	margin-bottom: 0 !important;
+}
+
+.btnSubmit{
+	background-color: #2666cf!important;
+}
+/* end paragraph styles */
+
+/* ********************************************** */
+
+/* start input styles */
+
+input:focus {
+	box-shadow: none !important;
+}
+
+/* end input styles */
+
+.btn-next {
+	background-color: var(--btnActive-color) !important;
+	color: white !important;
+	position: absolute;
+	bottom: -18px;
+	left: 15%;
+	font-weight: 600;
+	font-size: 20px;
+}
+
+.btnPhoneNum {
+	background-color: var(--btnActive-color) !important;
+	color: white;
+}
+
+button:disabled {
+	background-color: #a7aaa7;
+	color: black;
+	font-weight: 600;
+	opacity: 1 !important;
+}
+

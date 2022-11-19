@@ -1,0 +1,21 @@
+.PageContent {
+	background-color: #191c20;
+	width: 90%;
+	min-height: 90vh;
+	/* height:  */
+	border-radius: 15px;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	-ms-border-radius: 15px;
+	-o-border-radius: 15px;
+	padding: 0 0 2% 0;
+
+	margin: 10% 5% 3% 5%;
+	overflow-x: auto;
+	/* position: relative; */
+}
+@media (max-width: 575.98px) {
+	.PageContent {
+		margin-top: 20% !important;
+	}
+}

@@ -1,0 +1,42 @@
+.chatList {
+	background-color: black;
+	margin: 0;
+	padding: auto;
+	padding: 0;
+	max-height: 80vh;
+	overflow-y: auto;
+}
+.ChatContent {
+	max-height: 80vh;
+	overflow-y: auto;
+	background-color: #191c20;
+	margin-top: 25px !important;
+	padding-bottom: 50px;
+}
+
+.chatList::-webkit-scrollbar-track {
+	background: #191c20;
+}
+.chatList::-webkit-scrollbar-thumb {
+	border-color: #191c20;
+}
+
+.PageContentClasses {
+	height: 80vh;
+	min-height: 0;
+	position: relative;
+	background-color: #191c20;
+	margin: 10% 2% 3% 2%;
+	width: 96%;
+	padding: 0;
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
+
+@media screen and (max-width: 768px) {
+	.chatList > div,
+	.ChatContent > div {
+		height: 100vh !important;
+		padding-bottom: 5% !important;
+	}
+}

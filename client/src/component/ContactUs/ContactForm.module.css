@@ -1,0 +1,69 @@
+.ContactForm {
+	background-color: var(--overlay-dark);
+	width: 90%;
+	height: 100%;
+	/* padding-left: 20%!important; */
+	box-shadow: 2px 2px 10px var(--nav-color);
+	border-radius: 10px;
+	padding: 5% 5% !important;
+}
+.AnotherWay {
+	color: var(--alert-color);
+}
+.ContactForm > h2 {
+	padding-bottom: 2%;
+}
+.ContactFormDetails {
+	width: 70%;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding-left: 10%;
+}
+
+.ContactFormDetails input,
+.formControl {
+	width: 100% !important;
+	background: none !important;
+	border: 1px solid !important;
+	border-color: #171817 !important;
+	padding: 3px;
+}
+.formControl,
+.formControl::placeholder {
+	box-shadow: none !important;
+	color: white !important;
+}
+
+.formControl:hover {
+	box-shadow: none !important;
+}
+.textAreaError {
+	color: var(--alert-color);
+}
+.btnSubmit {
+	background-color: #171817 !important;
+	border-color: #171817 !important;
+	color: white;
+	border-radius: 5px;
+	margin-top: 25px;
+	transition: all 0.5s;
+}
+
+.btnSubmit:hover {
+	color: white;
+	background-color: var(--overlay-dark) !important;
+	border-color: var(--overlay-dark) !important;
+}
+
+@media (max-width: 768px) {
+	.ContactFormDetails {
+		width: 100%;
+		padding-left: 0;
+	}
+	.ContactForm {
+		width: 100%;
+	}
+}
